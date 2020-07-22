@@ -9,3 +9,4 @@ Subsequently the value selected by playing is compared with the objective value 
 - Swift version: 5.2.4
 - Interface: SwiftUI
 - Life Cycle: SwiftUI App
+ 
