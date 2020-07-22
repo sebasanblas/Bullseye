@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF538F3424C529E7009F2CB1 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF538F3324C529E7009F2CB1 /* About.swift */; };
 		BFECD57C24C2BD6600346652 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECD57B24C2BD6600346652 /* BullseyeApp.swift */; };
 		BFECD57E24C2BD6600346652 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECD57D24C2BD6600346652 /* ContentView.swift */; };
 		BFECD58024C2BD6800346652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFECD57F24C2BD6800346652 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF538F3324C529E7009F2CB1 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		BFECD57824C2BD6600346652 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFECD57B24C2BD6600346652 /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
 		BFECD57D24C2BD6600346652 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				BFECD57B24C2BD6600346652 /* BullseyeApp.swift */,
 				BFECD57D24C2BD6600346652 /* ContentView.swift */,
+				BF538F3324C529E7009F2CB1 /* About.swift */,
 				BFECD57F24C2BD6800346652 /* Assets.xcassets */,
 				BFECD58424C2BD6800346652 /* Info.plist */,
 				BFECD58124C2BD6800346652 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFECD57E24C2BD6600346652 /* ContentView.swift in Sources */,
+				BF538F3424C529E7009F2CB1 /* About.swift in Sources */,
 				BFECD57C24C2BD6600346652 /* BullseyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
 				DEVELOPMENT_TEAM = B8KP35A72P;
@@ -429,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiansanblas.Bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
 				DEVELOPMENT_TEAM = B8KP35A72P;
@@ -451,6 +458,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiansanblas.Bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
